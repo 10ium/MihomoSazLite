@@ -112,13 +112,19 @@ class ConfigProcessor:
         with open(self.template_path, "r", encoding="utf-8") as f:
             original_template = f.read()
 
-        # تولید فایل‌های خروجی
+        # ساخت پوشه‌ی خروجی اصلی
         os.makedirs(self.output_dir, exist_ok=True)
-        
+
         for filename, url in merged.items():
             modified = self._replace_proxy_url(original_template, url)
             output_path = os.path.join(self.output_dir, filename)
             
+            # اطمینان از وجود دایرکتوری‌های میانی مسیر خروجی
+            dir_path = os.path.dirname(output_path)
+            if dir_path:
+                os.makedirs(dir_path, exist_ok=True)
+
+            # نوشتن فایل خروجی
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(modified)
 
@@ -132,4 +138,4 @@ if __name__ == "__main__":
         processor.generate_configs()
         logging.info("✅ پردازش با موفقیت انجام شد!")
     except Exception as e:
-        logging.critical(f"❌ خطا: {str(e)}", exc_info=True)
+        logging.critical(f"❌ خطا: {e}", exc_info=True)
