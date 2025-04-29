@@ -47,3 +47,4 @@ snakem982-clash/meta-2.yaml|https://raw.githubusercontent.com/snakem982/proxypoo
 snakem982-clash/meta.yaml|https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta.yaml
 ts-sf.yaml|https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
 tt.vg.yaml|https://tt.vg/freeclash
+10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
