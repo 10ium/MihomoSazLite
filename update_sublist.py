@@ -17,7 +17,7 @@ class ConfigProcessor:
         self.template_path = "mihomo_template.txt"
         self.output_dir = "Sublist"
         self.readme_path = "README.md"
-        self.base_url = "https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/"
+        self.base_url = "https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/"
         self.simple_list = "Simple_URL_List.txt"
         self.complex_list = "Complex_URL_list.txt"
 
