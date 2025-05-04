@@ -15,6 +15,7 @@ ermaozi.yaml|https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/
 fast.lycorisrecoil.org.yaml|https://fast.lycorisrecoil.org/link/At3FWhPqhfOAvPOL?clash=1
 firefoxmmx2.yaml|https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
 free18.yaml|https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+hamedp-71/clash-m.k.z.yaml|https://raw.githubusercontent.com/hamedp-71/clash-m.k.z/refs/heads/main/hp.yaml
 hamedp-71/Clash_New.yaml|https://raw.githubusercontent.com/hamedp-71/Clash_New/refs/heads/main/hp.yaml
 hamedp-71/c-1.2-2.2.yaml|https://raw.githubusercontent.com/hamedp-71/c-1.2-2.2/refs/heads/main/hp.txt
 hamedp-71/c-1.4-2.4.yaml|https://raw.githubusercontent.com/hamedp-71/c-1.4-2.4/refs/heads/main/hp.txt
@@ -22,6 +23,7 @@ hamedp-71/c-1.5-2.5.yaml|https://raw.githubusercontent.com/hamedp-71/c-1.5-2.5/r
 hamedp-71/c-1.7-2.7.yaml|https://raw.githubusercontent.com/hamedp-71/c-1.7-2.7/refs/heads/main/hp.txt
 hamedp-71/c-2.6-3.6.yaml|https://raw.githubusercontent.com/hamedp-71/c-2.6-3.6/refs/heads/main/hp.yaml
 hamedp-71/c-2.7-3.7.yaml|https://raw.githubusercontent.com/hamedp-71/c-2.7-3.7/refs/heads/main/hp.yaml
+hamedp-71/c-2.13-5.13.yaml|https://raw.githubusercontent.com/hamedp-71/c-2.13-5.13/refs/heads/main/hp.yaml
 lagzian/meta.yaml|https://raw.githubusercontent.com/lagzian/TVC/refs/heads/main/subscriptions/meta/mix
 lagzian/mix.yaml|https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/mix_clash.yaml
 lagzian/reality.yaml|https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/reality_clash.yaml
@@ -48,3 +50,4 @@ snakem982-clash/meta.yaml|https://raw.githubusercontent.com/snakem982/proxypool/
 ts-sf.yaml|https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
 tt.vg.yaml|https://tt.vg/freeclash
 10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
+10ium/wg-windscribe.yaml|https://raw.githubusercontent.com/10ium/wg-to-clash/refs/heads/main/generated/proxies.yaml

@@ -36,7 +36,6 @@ Surfboardv2ray/IR.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/ma
 Surfboardv2ray/US.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_US.txt
 Surfboardv2ray/bugfix.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_bugfix.txt
 Surfboardv2ray/ipv6.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_ipv6.txt
-Surfboardv2ray/ir.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_mahsa.txt
 Surfboardv2ray/mahsa.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_mahsa.txt
 Surfboardv2ray/random.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_random
 Surfboardv2ray/udp.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Surfboardv2ray_udp.txt
