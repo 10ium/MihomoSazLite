@@ -76,3 +76,4 @@ voken100g/online.yaml|https://raw.githubusercontent.com/voken100g/AutoSSR/master
 voken100g/recent.yaml|https://raw.githubusercontent.com/voken100g/AutoSSR/master/recent
 wudongdefeng_list_raw.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/wudongdefeng_list_raw.txt
 xsfilternet.zaya.io.yaml|https://zaya.io/Xs_Unlimite
+shadowmere.xyz.yaml|https://shadowmere.xyz/api/b64sub
