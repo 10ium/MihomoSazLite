@@ -133,6 +133,7 @@
 - [🔒 voken100g/recent.yaml](https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/voken100g/recent.yaml)
 - [⚡ wudongdefeng_list_raw.yaml](https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/wudongdefeng_list_raw.yaml)
 - [🛡️ xsfilternet.zaya.io.yaml](https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/xsfilternet.zaya.io.yaml)
+- [🌐 shadowmere.xyz.yaml](https://raw.githubusercontent.com/10ium/MihomoSazLite/main/Sublist/shadowmere.xyz.yaml)
 
 ## 📖 راهنمای استفاده
 1. روی لینک مورد نظر **کلیک راست** کنید
