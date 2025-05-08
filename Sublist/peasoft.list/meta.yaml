@@ -319,7 +319,6 @@ proxy-groups:
     timeout: 6000
     tolerance: 200
     max-failed-times: 5
-    include-all: true
     lazy: true
     use:
       - proxy
