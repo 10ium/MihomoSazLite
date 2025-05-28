@@ -51,3 +51,4 @@ snakem982-clash/meta.yaml|https://raw.githubusercontent.com/snakem982/proxypool/
 ts-sf.yaml|https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
 tt.vg.yaml|https://tt.vg/freeclash
 10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
+darknessm427/WoW-clash-wg.yml|https://raw.githubusercontent.com/darknessm427/WoW/refs/heads/main/clash-wg.yml
