@@ -61,10 +61,18 @@ class ConfigProcessor:
         return pattern.sub(rf'\g<1>{new_url}', template)
 
     def _replace_proxy_path(self, template: str, new_path: str) -> str:
-        """جایگزینی path در بخش proxy-providers"""
-        # این الگو خطی که با 'path:' شروع می‌شود را پیدا کرده و آن را با مقدار جدید جایگزین می‌کند.
-        # از count=1 برای اطمینان از اینکه فقط اولین path (که مربوط به proxy است) تغییر می‌کند، استفاده شده است.
-        pattern = re.compile(r'(\s+path:\s*).+')
+        """جایگزینی path در بخش proxy-providers با دقت بیشتر"""
+        # این الگو به دنبال خط 'include-all:' می‌گردد و سپس خط 'path:' را در خط بعدی جایگزین می‌کند.
+        # این کار از جایگزینی اشتباه 'path' در بخش‌های دیگر فایل (مانند rule-providers) جلوگیری می‌کند.
+        pattern = re.compile(
+            r"(\n\s+include-all:\s*(?:true|false)\s*\n\s+path:\s*)([^\n]+)",
+            re.IGNORECASE
+        )
+        
+        if not pattern.search(template):
+            logging.warning(f"الگوی path در proxy-providers برای جایگزینی یافت نشد. ممکن است ساختار تمپلیت {self.template_path} تغییر کرده باشد.")
+            return template
+
         return pattern.sub(rf'\g<1>{new_path}', template, count=1)
 
     def _generate_readme(self, entries: List[Tuple[str, str]]) -> None:
@@ -129,11 +137,11 @@ class ConfigProcessor:
         merged_items = list(merged.items())
         for idx, (filename, url) in enumerate(merged_items):
             # 1. جایگزینی URL پروکسی
-            modified = self._replace_proxy_url(original_template, url)
+            modified_template = self._replace_proxy_url(original_template, url)
             
             # 2. ساخت path جدید و جایگزینی آن
             new_path = f"./MihomoSaz{idx + 1}.yaml"
-            modified = self._replace_proxy_path(modified, new_path)
+            final_template = self._replace_proxy_path(modified_template, new_path)
 
             output_path = os.path.join(self.output_dir, filename)
             
@@ -144,7 +152,7 @@ class ConfigProcessor:
 
             # نوشتن فایل خروجی
             with open(output_path, "w", encoding="utf-8") as f:
-                f.write(modified)
+                f.write(final_template)
 
         # تولید README
         self._generate_readme(merged_items)
