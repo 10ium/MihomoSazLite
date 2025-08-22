@@ -1,8 +1,9 @@
-10ium/multi-proxy-config-fetcher.yaml|https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json
+10ium/HighSpeed.yaml|https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/HighSpeed.txt
 10ium/V2Hub3_reality.yaml|https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/reality
 10ium/V2Hub3_shadowsocks.yaml|https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/shadowsocks
 10ium/V2Hub3_trojan.yaml|https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/trojan
 10ium/V2Hub3_vmess.yaml|https://raw.githubusercontent.com/10ium/V2Hub3/main/Split/Base64/vmess
+10ium/multi-proxy-config-fetcher.yaml|https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json
 10ium/ss_iran.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_ss_iran.txt
 10ium/trojan_iran.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_trojan_iran.txt
 10ium/vmess_iran.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_vmess_iran.txt
@@ -17,6 +18,7 @@ Ashkan-m.yaml|https://raw.githubusercontent.com/Ashkan-m/v2ray/refs/heads/main/S
 Epodonios.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Epodonios_config.txt
 Everyday-VPN.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Everyday-VPN_main.txt
 Leon406-hysteria2.yaml|https://raw.githubusercontent.com/Leon406/SubCrawler/refs/heads/main/sub/share/hysteria2
+MahsaNetConfigTopic.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/MahsaNetConfigTopic.txt
 Mosifree/RealityMosifree_Reality.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/Mosifree_Reality
 Mosifree/SS.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/Mosifree_SS
 Mosifree/T%252CH.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/Mosifree_T%252CH
@@ -70,10 +72,10 @@ shabane/merged.yaml|https://raw.githubusercontent.com/shabane/kamaji/master/hub/
 shabane/ss.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/shabane_ss.txt
 shabane/trojan.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/shabane_trojan.txt
 shabane/vmess.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/shabane_vmess.txt
+shadowmere.xyz.yaml|https://shadowmere.xyz/api/b64sub
 theGreatPeter_nodes.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/theGreatPeter_nodes.txt
 tristan-deng_MyNodes.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/tristan-deng_MyNodes.txt
 voken100g/online.yaml|https://raw.githubusercontent.com/voken100g/AutoSSR/master/online
 voken100g/recent.yaml|https://raw.githubusercontent.com/voken100g/AutoSSR/master/recent
 wudongdefeng_list_raw.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/wudongdefeng_list_raw.txt
 xsfilternet.zaya.io.yaml|https://zaya.io/Xs_Unlimite
-shadowmere.xyz.yaml|https://shadowmere.xyz/api/b64sub
