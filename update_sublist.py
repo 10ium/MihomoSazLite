@@ -132,7 +132,7 @@ class ConfigProcessor:
             modified = self._replace_proxy_url(original_template, url)
             
             # مرحله ۲: ساخت path جدید و جایگزینی آن در محتوای تغییر یافته
-            new_path = f"./MihomoSaz{idx + 1}.yaml"
+            new_path = f"./MihomoSazLite{idx + 1}.yaml"
             modified = self._replace_proxy_path(modified, new_path)
 
             output_path = os.path.join(self.output_dir, filename)
