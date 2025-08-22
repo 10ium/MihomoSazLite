@@ -105,7 +105,7 @@ rule-providers:
     behavior: domain
     url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml
     interval: 86400
-    path: ./MihomoSaz15.yaml
+    path: ./ruleset/iran_ads.yaml
   PersianBlocker:
     type: http
     behavior: domain
@@ -526,7 +526,7 @@ proxy-providers:
       https://clashe.eu.org/clash/proxies
     interval: 86400
     include-all: true
-    path: ./proxy.yaml
+    path: ./MihomoSaz15.yaml
     health-check:
       enable: true
       interval: 1800
