@@ -43,47 +43,40 @@ dns:
     - '*.home.arpa'
     - 'time.*.com'
     - 'ntp.*.com'
-    - 'time.*.com'  
     - '*.ir'
-  default-nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
-    - 1.0.0.1
-    - 1.1.1.1
-    - 9.9.9.9
-    - 9.9.9.11
-    - 9.9.9.10
-    - 94.140.14.15
-    - 94.140.15.15
-    - 223.5.5.5
+ 
+  default-nameserver: 
+    - 8.8.8.8 
+    - 8.8.4.4 
+    - 1.0.0.1 
+    - 1.1.1.1 
+    - 9.9.9.9 
+    - 9.9.9.11 
+    - 9.9.9.10 
+    - 94.140.14.15 
+    - 94.140.15.15 
+    - 223.5.5.5 
     - 77.88.8.8
   nameserver:
-    - 'https://sky.rethinkdns.com/1:sIMQAAAFMAAAEQgAAgA='
-    - 'tls://1-wcbraaaaauyaaaarbaaaeaa.max.rethinkdns.com'
-    - 'https://dns.nextdns.io/f1d647'
-    - 'tls://f1d647.dns.nextdns.io'
-    - 'https://dns.adguard-dns.com/dns-query'
-    - 'quic://dns.adguard-dns.com'
-    - 'tls://dns.adguard-dns.com'
+    - 'https://sky.rethinkdns.com/1:-J8AGH8C7_2-___f3_vZ3f_z-f9KagBI'
+    - 'tls://1-7cpqagd7alx73px777p5766z3x77h6p7jjvaasa.max.rethinkdns.com'
   direct-nameserver:
     - '78.157.42.100'
-    - '78.157.42.101'
-    - '178.22.122.100'
-    - '185.51.200.2'
-  proxy-server-nameserver:
-    - '2606:4700:4700::1111'
-    - '2606:4700:4700::1001'
-    - '2001:4860:4860::8888'
-    - '2001:4860:4860::8844'
-    - '1.1.1.1'
-    - '8.8.8.8'
-    - '8.8.4.4'
-    - '9.9.9.9'
-    - '223.5.5.5'
-    - '77.88.8.8'
-    - '2400:3200::1'
-    - '2a02:6b8::feed:0ff'
-    - '2620:fe::fe'
+    - '78.157.42.101' 
+  proxy-server-nameserver: 
+    - '2606:4700:4700::1111' 
+    - '2606:4700:4700::1001' 
+    - '2001:4860:4860::8888' 
+    - '2001:4860:4860::8844' 
+    - '1.1.1.1' 
+    - '8.8.8.8' 
+    - '8.8.4.4' 
+    - '9.9.9.9' 
+    - '223.5.5.5' 
+    - '77.88.8.8' 
+    - '2400:3200::1' 
+    - '2a02:6b8::feed:0ff' 
+    - '2620:fe::fe' 
 
 sniffer:
   enable: true
@@ -301,10 +294,10 @@ proxy-groups:
     icon: https://www.svgrepo.com/show/412721/choose.svg
     type: select
     proxies:
-      - اتصال پایدار 🔗
       - خودکار (بهترین پینگ) 🤖
       - دستی 🤏🏻
       - پشتیبان (در صورت قطعی) 🧯
+      - اتصال پایدار 🔗
       - بدون فیلترشکن 🛡️
   - name: دستی 🤏🏻
     type: select
@@ -394,9 +387,9 @@ proxy-groups:
     type: select
     icon: https://upload.wikimedia.org/wikipedia/commons/4/4c/WhatsApp_Logo_green.svg
     proxies:
+      - نوع انتخاب پروکسی 🔀
       - بدون فیلترشکن 🛡️
       - اجازه ندادن 🚫
-      - نوع انتخاب پروکسی 🔀
       - اتصال پایدار 🔗
       - خودکار (بهترین پینگ) 🤖
       - دستی 🤏🏻
@@ -540,6 +533,7 @@ proxy-providers:
       url: "https://www.gstatic.com/generate_204"
 
 rules:
+  - IP-CIDR,10.10.34.0/24,نوع انتخاب پروکسی 🔀
   - RULE-SET,DownloadManagers,دانلود منیجر 📥
   - RULE-SET,stremio,استریمیو 🎬
   - RULE-SET,BanProgramAD,تبلیغات 🆎
