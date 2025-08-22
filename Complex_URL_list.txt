@@ -8,6 +8,8 @@
 10ium/trojan_iran.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_trojan_iran.txt
 10ium/vmess_iran.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_vmess_iran.txt
 darkvpnapp/CloudflarePlus_proxy.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/darkvpnapp_CloudflarePlus_proxy.txt
+FreedomGuard/Finder_configs.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Freedom-Guard_Finder_configs.txt
+ebrasha/lite.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ebrasha_lite.txt
 @An0nymousTeam.yaml|https://fs.v2rayse.com/share/20250417/kn4eyffwk0.json#kn4eyffwk0
 @DarkVPNpro2.txt.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40DarkVPNpro2.txt
 @FREE2CONFIG_Vless.txt.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40FREE2CONFIG_Vless.txt
