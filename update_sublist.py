@@ -60,6 +60,13 @@ class ConfigProcessor:
         )
         return pattern.sub(rf'\g<1>{new_url}', template)
 
+    def _replace_proxy_path(self, template: str, new_path: str) -> str:
+        """جایگزینی path در بخش proxy-providers"""
+        # این الگو خطی که با 'path:' شروع می‌شود را پیدا کرده و آن را با مقدار جدید جایگزین می‌کند.
+        # از count=1 برای اطمینان از اینکه فقط اولین path (که مربوط به proxy است) تغییر می‌کند، استفاده شده است.
+        pattern = re.compile(r'(\s+path:\s*).+')
+        return pattern.sub(rf'\g<1>{new_path}', template, count=1)
+
     def _generate_readme(self, entries: List[Tuple[str, str]]) -> None:
         """تولید README با لینک مستقیم"""
         md_content = [
@@ -109,14 +116,25 @@ class ConfigProcessor:
                 merged[name] = url
 
         # خواندن تمپلیت اصلی
-        with open(self.template_path, "r", encoding="utf-8") as f:
-            original_template = f.read()
+        try:
+            with open(self.template_path, "r", encoding="utf-8") as f:
+                original_template = f.read()
+        except FileNotFoundError:
+            logging.critical(f"فایل تمپلیت {self.template_path} یافت نشد! برنامه متوقف شد.")
+            return
 
         # ساخت پوشه‌ی خروجی اصلی
         os.makedirs(self.output_dir, exist_ok=True)
 
-        for filename, url in merged.items():
+        merged_items = list(merged.items())
+        for idx, (filename, url) in enumerate(merged_items):
+            # 1. جایگزینی URL پروکسی
             modified = self._replace_proxy_url(original_template, url)
+            
+            # 2. ساخت path جدید و جایگزینی آن
+            new_path = f"./MihomoSaz{idx + 1}.yaml"
+            modified = self._replace_proxy_path(modified, new_path)
+
             output_path = os.path.join(self.output_dir, filename)
             
             # اطمینان از وجود دایرکتوری‌های میانی مسیر خروجی
@@ -129,7 +147,7 @@ class ConfigProcessor:
                 f.write(modified)
 
         # تولید README
-        self._generate_readme(list(merged.items()))
+        self._generate_readme(merged_items)
         logging.info("فایل‌ها با موفقیت ساخته شدند!")
 
 if __name__ == "__main__":
