@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix
     interval: 86400
     include-all: true
-    path: ./MihomoSaz2.yaml
+    path: ./MihomoSazLite2.yaml
     health-check:
       enable: true
       interval: 1800

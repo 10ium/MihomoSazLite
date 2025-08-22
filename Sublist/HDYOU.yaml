@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/HDYOU/porxy/refs/heads/main/rules/github-clash-all.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz8.yaml
+    path: ./MihomoSazLite8.yaml
     health-check:
       enable: true
       interval: 1800

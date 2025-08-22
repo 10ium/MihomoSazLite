@@ -526,7 +526,7 @@ proxy-providers:
       http://66.42.50.118:12580/clash/proxies
     interval: 86400
     include-all: true
-    path: ./MihomoSaz3.yaml
+    path: ./MihomoSazLite3.yaml
     health-check:
       enable: true
       interval: 1800

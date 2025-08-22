@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/v2rayshare.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz7.yaml
+    path: ./MihomoSazLite7.yaml
     health-check:
       enable: true
       interval: 1800

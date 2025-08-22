@@ -526,7 +526,7 @@ proxy-providers:
       https://sub.vip.sd/JPa6vvFgygVtNP2sGJ2r/download/YuanZhang?target=meta
     interval: 86400
     include-all: true
-    path: ./MihomoSaz13.yaml
+    path: ./MihomoSazLite13.yaml
     health-check:
       enable: true
       interval: 1800
