@@ -61,18 +61,12 @@ class ConfigProcessor:
         return pattern.sub(rf'\g<1>{new_url}', template)
 
     def _replace_proxy_path(self, template: str, new_path: str) -> str:
-        """جایگزینی path در بخش proxy-providers با دقت بیشتر"""
+        """جایگزینی path در بخش proxy-providers با دقت"""
         # این الگو به دنبال خط 'include-all:' می‌گردد و سپس خط 'path:' را در خط بعدی جایگزین می‌کند.
-        # این کار از جایگزینی اشتباه 'path' در بخش‌های دیگر فایل (مانند rule-providers) جلوگیری می‌کند.
         pattern = re.compile(
             r"(\n\s+include-all:\s*(?:true|false)\s*\n\s+path:\s*)([^\n]+)",
             re.IGNORECASE
         )
-        
-        if not pattern.search(template):
-            logging.warning(f"الگوی path در proxy-providers برای جایگزینی یافت نشد. ممکن است ساختار تمپلیت {self.template_path} تغییر کرده باشد.")
-            return template
-
         return pattern.sub(rf'\g<1>{new_path}', template, count=1)
 
     def _generate_readme(self, entries: List[Tuple[str, str]]) -> None:
@@ -124,24 +118,22 @@ class ConfigProcessor:
                 merged[name] = url
 
         # خواندن تمپلیت اصلی
-        try:
-            with open(self.template_path, "r", encoding="utf-8") as f:
-                original_template = f.read()
-        except FileNotFoundError:
-            logging.critical(f"فایل تمپلیت {self.template_path} یافت نشد! برنامه متوقف شد.")
-            return
+        with open(self.template_path, "r", encoding="utf-8") as f:
+            original_template = f.read()
 
         # ساخت پوشه‌ی خروجی اصلی
         os.makedirs(self.output_dir, exist_ok=True)
-
+        
+        # تبدیل دیکشنری به لیست برای داشتن ترتیب ثابت و ایندکس
         merged_items = list(merged.items())
+
         for idx, (filename, url) in enumerate(merged_items):
-            # 1. جایگزینی URL پروکسی
-            modified_template = self._replace_proxy_url(original_template, url)
+            # مرحله ۱: جایگزینی URL پروکسی
+            modified = self._replace_proxy_url(original_template, url)
             
-            # 2. ساخت path جدید و جایگزینی آن
+            # مرحله ۲: ساخت path جدید و جایگزینی آن در محتوای تغییر یافته
             new_path = f"./MihomoSaz{idx + 1}.yaml"
-            final_template = self._replace_proxy_path(modified_template, new_path)
+            modified = self._replace_proxy_path(modified, new_path)
 
             output_path = os.path.join(self.output_dir, filename)
             
@@ -152,7 +144,7 @@ class ConfigProcessor:
 
             # نوشتن فایل خروجی
             with open(output_path, "w", encoding="utf-8") as f:
-                f.write(final_template)
+                f.write(modified)
 
         # تولید README
         self._generate_readme(merged_items)
