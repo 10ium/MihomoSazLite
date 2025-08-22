@@ -35,6 +35,7 @@ lagzian/vmess_tvc.yaml|https://raw.githubusercontent.com/lagzian/SS-Collector/re
 liketolivefree.yaml|https://raw.githubusercontent.com/liketolivefree/kobabi/refs/heads/main/prov_clash.yaml
 maimengmeng/500.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/maimengmeng.yaml
 maimengmeng/AnyTLS.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/maimengmeng_AnyTLS.yaml
+maimengmeng/custom.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/maimengmeng_custom.yaml
 mfuu.yaml|https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/clash.yaml
 moneyfly1/merged_proxies.yaml|https://raw.githubusercontent.com/moneyfly1/chromego_merge/refs/heads/main/sub/merged_proxies.yaml
 moneyfly1/merged_proxies_new.yaml|https://raw.githubusercontent.com/moneyfly1/chromego_merge/refs/heads/main/sub/merged_proxies_new.yaml
