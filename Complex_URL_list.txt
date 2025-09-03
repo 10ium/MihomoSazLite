@@ -10,6 +10,9 @@
 darkvpnapp/CloudflarePlus_proxy.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/darkvpnapp_CloudflarePlus_proxy.txt
 FreedomGuard/Finder_configs.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Freedom-Guard_Finder_configs.txt
 ebrasha/lite.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ebrasha_lite.txt
+amin_o__o/bitplatform.yaml|https://sub.bitplatform.workers.dev/pub
+namira.dev.yaml|https://www.namira.dev/api/subscription
+yebekhe/vpn-fail.yaml|https://raw.githubusercontent.com/yebekhe/vpn-fail/refs/heads/main/sub-link.txt
 @An0nymousTeam.yaml|https://fs.v2rayse.com/share/20250417/kn4eyffwk0.json#kn4eyffwk0
 @DarkVPNpro2.txt.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40DarkVPNpro2.txt
 @FREE2CONFIG_Vless.txt.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40FREE2CONFIG_Vless.txt
@@ -82,3 +85,5 @@ voken100g/online.yaml|https://raw.githubusercontent.com/voken100g/AutoSSR/master
 voken100g/recent.yaml|https://raw.githubusercontent.com/voken100g/AutoSSR/master/recent
 wudongdefeng_list_raw.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/wudongdefeng_list_raw.txt
 xsfilternet.zaya.io.yaml|https://zaya.io/Xs_Unlimite
+shatakvpn.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/v2nodes.b64
+F0rc3Run_XX.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/F0rc3Run_XX.b64
