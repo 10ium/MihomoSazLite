@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
     interval: 86400
     include-all: true
-    path: ./MihomoSazLite57.yaml
+    path: ./MihomoSazLite59.yaml
     health-check:
       enable: true
       interval: 1800

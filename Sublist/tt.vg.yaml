@@ -526,7 +526,7 @@ proxy-providers:
       https://tt.vg/freeclash
     interval: 86400
     include-all: true
-    path: ./MihomoSazLite58.yaml
+    path: ./MihomoSazLite60.yaml
     health-check:
       enable: true
       interval: 1800

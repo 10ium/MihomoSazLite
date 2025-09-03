@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/vmess_tvc_clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSazLite34.yaml
+    path: ./MihomoSazLite36.yaml
     health-check:
       enable: true
       interval: 1800
