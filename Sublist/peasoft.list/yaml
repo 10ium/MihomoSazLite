@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.yml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz44.yaml
+    path: ./MihomoSazLite45.yaml
     health-check:
       enable: true
       interval: 1800

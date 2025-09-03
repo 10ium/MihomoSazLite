@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/hamedp-71/N_warp/refs/heads/main/HP.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz23.yaml
+    path: ./MihomoSazLite23.yaml
     health-check:
       enable: true
       interval: 1800

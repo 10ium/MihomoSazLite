@@ -526,7 +526,7 @@ proxy-providers:
       https://fast.lycorisrecoil.org/link/At3FWhPqhfOAvPOL?clash=1
     interval: 86400
     include-all: true
-    path: ./MihomoSaz19.yaml
+    path: ./MihomoSazLite19.yaml
     health-check:
       enable: true
       interval: 1800

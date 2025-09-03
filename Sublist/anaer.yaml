@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz14.yaml
+    path: ./MihomoSazLite14.yaml
     health-check:
       enable: true
       interval: 1800

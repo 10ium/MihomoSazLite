@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/actives_under_1500ms.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz10.yaml
+    path: ./MihomoSazLite10.yaml
     health-check:
       enable: true
       interval: 1800
