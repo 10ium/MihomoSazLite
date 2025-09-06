@@ -13,6 +13,7 @@ ebrasha/lite.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/en
 amin_o__o/bitplatform.yaml|https://sub.bitplatform.workers.dev/pub
 namira.dev.yaml|https://www.namira.dev/api/subscription
 yebekhe/vpn-fail.yaml|https://raw.githubusercontent.com/yebekhe/vpn-fail/refs/heads/main/sub-link.txt
+Danialsamadi/v2go_custom.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/Danialsamadi_v2go_custom.b64
 @An0nymousTeam.yaml|https://fs.v2rayse.com/share/20250417/kn4eyffwk0.json#kn4eyffwk0
 @DarkVPNpro2.txt.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40DarkVPNpro2.txt
 @FREE2CONFIG_Vless.txt.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/encoded/%40FREE2CONFIG_Vless.txt
