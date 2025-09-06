@@ -526,7 +526,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/maimengmeng_custom.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSazLite38.yaml
+    path: ./MihomoSazLite40.yaml
     health-check:
       enable: true
       interval: 1800

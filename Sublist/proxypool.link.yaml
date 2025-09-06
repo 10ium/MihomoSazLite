@@ -526,7 +526,7 @@ proxy-providers:
       https://proxypool.link/clash/proxies
     interval: 86400
     include-all: true
-    path: ./MihomoSazLite46.yaml
+    path: ./MihomoSazLite48.yaml
     health-check:
       enable: true
       interval: 1800
